@@ -1,0 +1,27 @@
+16:05:52 INFO  : Registering command handlers for Vitis TCF services
+16:05:52 INFO  : Launching XSCT server: xsct -n  -interactive /scratch/643_vitis_xuesic/project/temp_xsdb_launch_script.tcl
+16:06:03 INFO  : XSCT server has started successfully.
+16:06:03 INFO  : plnx-install-location is set to ''
+16:06:03 INFO  : Successfully done setting XSCT server connection channel  
+16:06:05 INFO  : Platform repository initialization has completed.
+16:06:19 INFO  : Successfully done setting workspace for the tool. 
+16:06:19 INFO  : Successfully done query RDI_DATADIR 
+18:59:15 INFO  : Launching XSCT server: xsct -n  -interactive /scratch/643_vitis_xuesic/project/temp_xsdb_launch_script.tcl
+18:59:18 INFO  : Registering command handlers for Vitis TCF services
+18:59:18 INFO  : Platform repository initialization has completed.
+18:59:19 INFO  : XSCT server has started successfully.
+18:59:19 INFO  : Successfully done setting XSCT server connection channel  
+18:59:19 INFO  : plnx-install-location is set to ''
+18:59:20 INFO  : Successfully done setting workspace for the tool. 
+18:59:20 INFO  : Successfully done query RDI_DATADIR 
+19:09:57 INFO  : [Import] Updating active build configuration of the system project 'mmm_vadd_dfx_system' to 'Hardware' after the import.
+19:09:57 INFO  : Build configuration of 'mmm_vadd_dfx_system' is updated to 'Hardware'
+19:09:57 INFO  : Build configuration of 'mmm_vadd_dfx_system_hw_link' is updated to 'Hardware'
+19:09:57 INFO  : Build configuration of 'mmm_vadd_dfx' is updated to 'Hardware'
+19:09:57 INFO  : Build configuration of 'mmm_kernels' is updated to 'Hardware'
+19:09:57 INFO  : Build configuration of 'vadd_kernels' is updated to 'Hardware'
+19:09:57 INFO  : Build configuration of 'exp1a_kernels' is updated to 'Hardware'
+19:09:57 INFO  : Build configuration of 'exp1b_kernels' is updated to 'Hardware'
+19:09:57 INFO  : Build configuration of 'exp2a_kernels' is updated to 'Hardware'
+19:09:57 INFO  : Build configuration of 'exp2b_kernels' is updated to 'Hardware'
+19:09:57 INFO  : Build configuration of 'exp3_kernels' is updated to 'Hardware'

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<hostApp:AcceleratedHostProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hostApp="http://www.xilinx.com/acceleration/hostApplication" name="sa_mmm" location="/scratch/643_vitis_xuesic/project/sa_mmm" platform="/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/platforms/2021.1/cmu_u96v2_dfx_full/cmu_u96v2_dfx_full.xpfm" platformUID="cmu:u96:dynamic:1.0(custom)" systemProject="sa_mmm_system" sysConfig="cmu_u96v2_dfx_full" cpu="linux_domain" cpuInstance="cortex-a53" os="linux" flow="EMBEDDED_ACCELERATION">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.accel.config.sw_emu.aarch64.1617272231">
+    <configBuildOptions xsi:type="hostApp:HostApplicationOptions"/>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.ide.accel.config.hw_emu.aarch64.750260706">
+    <configBuildOptions xsi:type="hostApp:HostApplicationOptions" target="hw_emu"/>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.accel.config.hw.aarch64.333292420">
+    <configBuildOptions xsi:type="hostApp:HostApplicationOptions" target="hw"/>
+  </configuration>
+</hostApp:AcceleratedHostProject>

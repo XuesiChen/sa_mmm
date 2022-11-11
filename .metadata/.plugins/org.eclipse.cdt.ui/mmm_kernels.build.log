@@ -1,0 +1,41 @@
+19:31:11 **** Build of configuration Hardware for project mmm_kernels ****
+make -j32 all 
+/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/bin/v++ --target hw --compile -I"../src" --config krnl_mmm-compile.cfg -o"build/krnl_mmm.xo" "../src/krnl_mmm.cpp"
+Option Map File Used: '/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/Vitis/2021.1/data/vitis/vpp/optMap.xml'
+
+****** v++ v2021.1 (64-bit)
+  **** SW Build 3246112 on 2021-06-09-14:19:56
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+	Reports: /scratch/643_vitis_xuesic/project/mmm_kernels/Hardware/build/reports/krnl_mmm
+	Log files: /scratch/643_vitis_xuesic/project/mmm_kernels/Hardware/build/logs/krnl_mmm
+Running Dispatch Server on port: 42136
+INFO: [v++ 60-1548] Creating build summary session with primary output /scratch/643_vitis_xuesic/project/mmm_kernels/Hardware/build/krnl_mmm.xo.compile_summary, at Thu Nov 10 19:31:27 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Thu Nov 10 19:31:27 2022
+INFO: [v++ 60-895]   Target platform: /afs/ece.cmu.edu/class/ece643/software/xilinxVitis/platforms/2021.1/cmu_u96v2_dfx_full/cmu_u96v2_dfx_full.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/platforms/2021.1/cmu_u96v2_dfx_full/hw/cmu_u96_base_dfx_202110_1.xsa'
+INFO: [v++ 60-585] Compiling for hardware target
+INFO: [v++ 60-423]   Target device: cmu_u96v2_dfx_full
+INFO: [v++ 60-242] Creating kernel: 'krnl_mmm'
+
+===>The following messages were generated while  performing high-level synthesis for kernel: krnl_mmm Log file: /scratch/643_vitis_xuesic/project/mmm_kernels/Hardware/build/krnl_mmm/krnl_mmm/vitis_hls.log :
+INFO: [v++ 204-61] Pipelining loop 'VITIS_LOOP_63_1'.
+INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_63_1'
+INFO: [v++ 204-61] Pipelining loop 'VITIS_LOOP_79_5'.
+INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_79_5'
+INFO: [v++ 204-61] Pipelining loop 'VITIS_LOOP_83_6'.
+INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 148, Depth = 149, loop 'VITIS_LOOP_83_6'
+INFO: [v++ 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [v++ 200-789] **** Estimated Fmax: 205.47 MHz
+INFO: [v++ 60-594] Finished kernel compilation
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /scratch/643_vitis_xuesic/project/mmm_kernels/Hardware/build/reports/krnl_mmm/system_estimate_krnl_mmm.xtxt
+INFO: [v++ 60-586] Created build/krnl_mmm.xo
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /scratch/643_vitis_xuesic/project/mmm_kernels/Hardware/build/krnl_mmm.xo.compile_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 2m 58s
+INFO: [v++ 60-1653] Closing dispatch client.
+
+19:34:14 Build Finished (took 3m:2s.669ms)
+

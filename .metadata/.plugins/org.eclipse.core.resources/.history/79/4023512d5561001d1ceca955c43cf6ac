@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="ASCII"?>
+<hwlink:HwLinkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hwlink="http://www.xilinx.com/acceleration/hwlink" name="mmm_vadd_dfx_system_hw_link" platform="/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/platforms/2021.1/cmu_u96v2_dfx_full/cmu_u96v2_dfx_full.xpfm" platformUID="cmu:u96:dynamic:1.0(custom)" systemProject="mmm_vadd_dfx_system" sysConfig="cmu_u96v2_dfx_full" cpu="pl">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.accel.config.hwlink.sw_emu.1584079131">
+    <configBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="binary_container_vadd">
+        <kernels name="krnl_vadd" projectName="vadd_kernels">
+          <computeUnits name="krnl_vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_mmm">
+        <kernels name="krnl_mmm" projectName="mmm_kernels">
+          <computeUnits name="krnl_mmm_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp1a">
+        <kernels name="krnl_exp1a" projectName="exp1a_kernels">
+          <computeUnits name="krnl_exp1a_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp1b">
+        <kernels name="krnl_exp1b" projectName="exp1b_kernels">
+          <computeUnits name="krnl_exp1b_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp2a">
+        <kernels name="krnl_exp2a" projectName="exp2a_kernels">
+          <computeUnits name="krnl_exp2a_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp2b">
+        <kernels name="krnl_exp2b" projectName="exp2b_kernels">
+          <computeUnits name="krnl_exp2b_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp3">
+        <kernels name="krnl_exp3" projectName="exp3_kernels">
+          <computeUnits name="krnl_exp3_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="binary_container_vadd">
+        <kernels name="krnl_vadd" projectName="vadd_kernels">
+          <computeUnits name="krnl_vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_mmm">
+        <kernels name="krnl_mmm" projectName="mmm_kernels">
+          <computeUnits name="krnl_mmm_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp1a">
+        <kernels name="krnl_exp1a" projectName="exp1a_kernels">
+          <computeUnits name="krnl_exp1a_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp1b">
+        <kernels name="krnl_exp1b" projectName="exp1b_kernels">
+          <computeUnits name="krnl_exp1b_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp2a">
+        <kernels name="krnl_exp2a" projectName="exp2a_kernels">
+          <computeUnits name="krnl_exp2a_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp2b">
+        <kernels name="krnl_exp2b" projectName="exp2b_kernels">
+          <computeUnits name="krnl_exp2b_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp3">
+        <kernels name="krnl_exp3" projectName="exp3_kernels">
+          <computeUnits name="krnl_exp3_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.ide.accel.config.hwlink.hw_emu.568366148">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw_emu">
+      <binaryContainers name="binary_container_mmm">
+        <kernels name="krnl_mmm" projectName="mmm_kernels">
+          <computeUnits name="krnl_mmm_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_vadd">
+        <kernels name="krnl_vadd" projectName="vadd_kernels">
+          <computeUnits name="krnl_vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp1a">
+        <kernels name="krnl_exp1a" projectName="exp1a_kernels">
+          <computeUnits name="krnl_exp1a_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp1b">
+        <kernels name="krnl_exp1b" projectName="exp1b_kernels">
+          <computeUnits name="krnl_exp1b_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp2a">
+        <kernels name="krnl_exp2a" projectName="exp2a_kernels">
+          <computeUnits name="krnl_exp2a_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp2b">
+        <kernels name="krnl_exp2b" projectName="exp2b_kernels">
+          <computeUnits name="krnl_exp2b_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp3">
+        <kernels name="krnl_exp3" projectName="exp3_kernels">
+          <computeUnits name="krnl_exp3_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions" target="hw_emu">
+      <binaryContainers name="binary_container_mmm">
+        <kernels name="krnl_mmm" projectName="mmm_kernels">
+          <computeUnits name="krnl_mmm_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_vadd">
+        <kernels name="krnl_vadd" projectName="vadd_kernels">
+          <computeUnits name="krnl_vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp1a">
+        <kernels name="krnl_exp1a" projectName="exp1a_kernels">
+          <computeUnits name="krnl_exp1a_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp1b">
+        <kernels name="krnl_exp1b" projectName="exp1b_kernels">
+          <computeUnits name="krnl_exp1b_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp2a">
+        <kernels name="krnl_exp2a" projectName="exp2a_kernels">
+          <computeUnits name="krnl_exp2a_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp2b">
+        <kernels name="krnl_exp2b" projectName="exp2b_kernels">
+          <computeUnits name="krnl_exp2b_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp3">
+        <kernels name="krnl_exp3" projectName="exp3_kernels">
+          <computeUnits name="krnl_exp3_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.accel.config.hwlink.hw.1447361641">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="binary_container_mmm">
+        <kernels name="krnl_mmm" projectName="mmm_kernels">
+          <computeUnits name="krnl_mmm_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_vadd">
+        <kernels name="krnl_vadd" projectName="vadd_kernels">
+          <computeUnits name="krnl_vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp1a">
+        <kernels name="krnl_exp1a" projectName="exp1a_kernels">
+          <computeUnits name="krnl_exp1a_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp1b">
+        <kernels name="krnl_exp1b" projectName="exp1b_kernels">
+          <computeUnits name="krnl_exp1b_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp2a">
+        <kernels name="krnl_exp2a" projectName="exp2a_kernels">
+          <computeUnits name="krnl_exp2a_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp2b">
+        <kernels name="krnl_exp2b" projectName="exp2b_kernels">
+          <computeUnits name="krnl_exp2b_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp3">
+        <kernels name="krnl_exp3" projectName="exp3_kernels">
+          <computeUnits name="krnl_exp3_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="binary_container_mmm">
+        <kernels name="krnl_mmm" projectName="mmm_kernels">
+          <computeUnits name="krnl_mmm_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_vadd">
+        <kernels name="krnl_vadd" projectName="vadd_kernels">
+          <computeUnits name="krnl_vadd_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp1a">
+        <kernels name="krnl_exp1a" projectName="exp1a_kernels">
+          <computeUnits name="krnl_exp1a_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp1b">
+        <kernels name="krnl_exp1b" projectName="exp1b_kernels">
+          <computeUnits name="krnl_exp1b_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp2a">
+        <kernels name="krnl_exp2a" projectName="exp2a_kernels">
+          <computeUnits name="krnl_exp2a_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp2b">
+        <kernels name="krnl_exp2b" projectName="exp2b_kernels">
+          <computeUnits name="krnl_exp2b_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+      <binaryContainers name="binary_container_exp3">
+        <kernels name="krnl_exp3" projectName="exp3_kernels">
+          <computeUnits name="krnl_exp3_1" slr="">
+            <args name="in1" master="true" memory=""/>
+            <args name="in2" master="true" memory=""/>
+            <args name="out_r" master="true" memory=""/>
+            <args name="size"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+</hwlink:HwLinkProject>

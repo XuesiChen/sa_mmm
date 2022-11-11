@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:systemproject="http://www.xilinx.com/systemproject" name="mmm_vadd_dfx_system" platform="/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/platforms/2021.1/cmu_u96v2_dfx_full/cmu_u96v2_dfx_full.xpfm" platformUID="cmu:u96:dynamic:1.0(custom)" sysConfig="cmu_u96v2_dfx_full" dimmRepoPath="" rootFSLocation="/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/platforms/2021.1/cmu_u96v2_dfx_full/sw/cmu_u96v2_dfx_full/linux_domain/rootfs/rootfs.ext4" linuxImage="/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/platforms/2021.1/cmu_u96v2_dfx_full/sw/cmu_u96v2_dfx_full/linux_domain/image/Image" sysroot="/afs/ece.cmu.edu/class/ece643/software/xilinxVitis/platforms/2021.1/cmu_u96v2_dfx_full/sw/cmu_u96v2_dfx_full/linux_domain/sysroot/cortexa72-cortexa53-xilinx-linux">
+  <configuration name="Emulation-SW" id="com.xilinx.sdx.system.managedbuilder.swemu.configuration.1061599902">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="mmm_vadd_dfx_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="mmm_vadd_dfx" domainName="xrt" domainPrettyName="xrt" appBuildConfig="Emulation-SW"/>
+      <applications name="mmm_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="vadd_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="exp1b_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="exp2a_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="exp2b_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="exp3_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="mmm_vadd_dfx_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="mmm_vadd_dfx" domainName="xrt" domainPrettyName="xrt" appBuildConfig="Emulation-SW"/>
+      <applications name="mmm_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="vadd_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="exp1a_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="exp1b_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="exp2a_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="exp2b_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+      <applications name="exp3_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-SW"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.sdx.system.managedbuilder.hwemu.configuration.850296834">
+    <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw_emu">
+      <applications name="mmm_vadd_dfx_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="mmm_vadd_dfx" domainName="xrt" domainPrettyName="xrt" appBuildConfig="Emulation-HW"/>
+      <applications name="mmm_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="vadd_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="exp1b_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="exp2a_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="exp2b_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="exp3_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions" target="hw_emu">
+      <applications name="mmm_vadd_dfx_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="mmm_vadd_dfx" domainName="xrt" domainPrettyName="xrt" appBuildConfig="Emulation-HW"/>
+      <applications name="mmm_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="vadd_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="exp1a_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="exp1b_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="exp2a_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="exp2b_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+      <applications name="exp3_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Emulation-HW"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.sdx.system.managedbuilder.hw.configuration.1618030735">
+    <configBuildOptions xsi:type="systemproject:SystemOptions" target="hw">
+      <applications name="mmm_vadd_dfx_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="mmm_vadd_dfx" domainName="linux_domain" domainPrettyName="petalinux" appBuildConfig="Hardware"/>
+      <applications name="mmm_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="vadd_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="exp1b_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="exp2a_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="exp2b_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="exp3_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions" target="hw">
+      <applications name="mmm_vadd_dfx_system_hw_link" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="mmm_vadd_dfx" domainName="linux_domain" domainPrettyName="petalinux" appBuildConfig="Hardware"/>
+      <applications name="mmm_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="vadd_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="exp1a_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="exp1b_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="exp2a_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="exp2b_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+      <applications name="exp3_kernels" domainName="" domainPrettyName="pl" appBuildConfig="Hardware"/>
+    </lastBuildOptions>
+  </configuration>
+</systemproject:SystemProject>
